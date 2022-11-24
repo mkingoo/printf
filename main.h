@@ -1,8 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 #include <stdlib.h>
 #include <stdarg.h>
-#include <stdio.h>
 
 /**
  * struct flags - struct containing flags to "turn on"
@@ -25,8 +25,7 @@ typedef struct flags
  * @f: pointer to the correct printing function
  */
 typedef struct printHandler
-{
-	char c;
+{char c;
 	int (*f)(va_list ap, flags_t *f);
 } ph;
 
