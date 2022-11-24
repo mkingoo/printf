@@ -1,8 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
-
 #include <stdlib.h>
 #include <stdarg.h>
+#include <stdio.h>
 
 /**
  * struct flags - struct containing flags to "turn on"
